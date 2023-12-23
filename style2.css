@@ -1,0 +1,106 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  background-color: #bfbfbf;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-bottom: 1px solid #b1b1ae; */
+}
+.navBar {
+  width: 733.84px;
+  height: 34.25px;
+  /* border: 1px solid ; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+    padding: 30px 0px;
+  border-bottom: 1px solid #b1b1ae;
+}
+.leftNav {
+  width: 136.47px;
+  height: 31.02px;
+}
+.img1 {
+  position: absolute;
+  top:22px;
+  left: 280px;
+}
+.rightNav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.rightNav span {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700px;
+  color: #979797;
+}
+
+.btn1 {
+  color: #bd9619;
+  border: none;
+  background-color: #bfbfbf;
+  font-size: 18px;
+  font-weight: 700;
+}
+.topic {
+  width: 716.42px;
+  height: 413.95px;
+  background: #ffffff;
+  border: 1px solid;
+}
+.choose-section {
+  width: 100vw;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  background-color: #bfbfbf;
+  height: 440px;
+  /* border: 1px solid; */
+}
+.btn2 {
+  float: right;
+  margin: 10px 10px 0px 0px;
+}
+.title {
+  text-align: center;
+  margin-top: 50px;
+}
+.para {
+  text-align: center;
+}
+.TagBadgeBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 30px;
+}
+.TagBadgeBtn > .s-1Type {
+  border: none;
+  background-color: #979797;
+  padding: 5px;
+}
+.TagBadgeBtn > .s2-Type {
+  background-color: #bd9619;
+  padding: 5px;
+}
+.TagBadgeBtn > .s2-Type > button {
+  background-color: white;
+}
+
+.btn3 {
+  background-color: #bd9619;
+  color: white;
+  float: right;
+  border: none;
+  margin-right: 20px;
+  padding: 10px;
+}
